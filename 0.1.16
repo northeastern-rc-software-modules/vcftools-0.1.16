@@ -1,0 +1,19 @@
+#%Module
+module-whatis	 "Loads vcftools/0.1.16 module.
+
+This module was built on Tue Oct 29 06:22:12 PM EDT 2024
+
+vcftools
+
+The script used to build this module can be found here: https://github.com/northeastern-rc-software-modules/vcftools-0.1.16
+
+To load the module, type:
+module load vcftools/0.1.16
+
+"
+
+conflict	 vcftools
+prepend-path	 PATH /shared/EL9/explorer/vcftools/0.1.16/bin
+prepend-path       LIBRARY_PATH /shared/EL9/explorer/vcftools/0.1.16/lib
+prepend-path       LD_LIBRARY_PATH /shared/EL9/explorer/vcftools/0.1.16/lib
+prepend-path       CPATH /shared/EL9/explorer/vcftools/0.1.16/include
