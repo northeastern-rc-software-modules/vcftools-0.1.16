@@ -1,0 +1,498 @@
+--2024-10-29 18:20:59--  https://github.com/vcftools/vcftools/releases/download/v0.1.16/vcftools-0.1.16.tar.gz
+Connecting to 10.99.0.130:3128... connected.
+Proxy request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/38052058/864c86fc-9642-11e8-93c1-8188f0535196?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241029%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241029T222059Z&X-Amz-Expires=300&X-Amz-Signature=a235826ca509480a67fbe1df89435bfe6f64b4aa7b94dccca31e2ab333bac0f2&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dvcftools-0.1.16.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2024-10-29 18:20:59--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/38052058/864c86fc-9642-11e8-93c1-8188f0535196?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241029%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241029T222059Z&X-Amz-Expires=300&X-Amz-Signature=a235826ca509480a67fbe1df89435bfe6f64b4aa7b94dccca31e2ab333bac0f2&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dvcftools-0.1.16.tar.gz&response-content-type=application%2Foctet-stream
+Connecting to 10.99.0.130:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 480575 (469K) [application/octet-stream]
+Saving to: ‘vcftools-0.1.16.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 10% 4.57M 0s
+    50K .......... .......... .......... .......... .......... 21% 5.16M 0s
+   100K .......... .......... .......... .......... .......... 31% 19.9M 0s
+   150K .......... .......... .......... .......... .......... 42% 5.11M 0s
+   200K .......... .......... .......... .......... .......... 53% 32.1M 0s
+   250K .......... .......... .......... .......... .......... 63% 40.0M 0s
+   300K .......... .......... .......... .......... .......... 74% 31.8M 0s
+   350K .......... .......... .......... .......... .......... 85% 31.8M 0s
+   400K .......... .......... .......... .......... .......... 95% 7.53M 0s
+   450K .......... .........                                  100%  219M=0.04s
+
+2024-10-29 18:20:59 (10.3 MB/s) - ‘vcftools-0.1.16.tar.gz’ saved [480575/480575]
+
+./vcftools-0.1.16/._LICENSE
+./vcftools-0.1.16/LICENSE
+./vcftools-0.1.16/._Makefile.am
+./vcftools-0.1.16/Makefile.am
+./vcftools-0.1.16/Makefile.in
+./vcftools-0.1.16/._README.md
+./vcftools-0.1.16/README.md
+./vcftools-0.1.16/aclocal.m4
+./vcftools-0.1.16/._autogen.sh
+./vcftools-0.1.16/autogen.sh
+./vcftools-0.1.16/autom4te.cache/
+./vcftools-0.1.16/autom4te.cache/output.0
+./vcftools-0.1.16/autom4te.cache/output.1
+./vcftools-0.1.16/autom4te.cache/requests
+./vcftools-0.1.16/autom4te.cache/traces.0
+./vcftools-0.1.16/autom4te.cache/traces.1
+./vcftools-0.1.16/._build-aux
+./vcftools-0.1.16/build-aux/
+./vcftools-0.1.16/build-aux/._git-version-gen
+./vcftools-0.1.16/build-aux/git-version-gen
+./vcftools-0.1.16/compile
+./vcftools-0.1.16/config.h.in
+./vcftools-0.1.16/configure
+./vcftools-0.1.16/._configure.ac
+./vcftools-0.1.16/configure.ac
+./vcftools-0.1.16/depcomp
+./vcftools-0.1.16/._examples
+./vcftools-0.1.16/examples/
+./vcftools-0.1.16/examples/._annotate-test.vcf
+./vcftools-0.1.16/examples/annotate-test.vcf
+./vcftools-0.1.16/examples/._annotate.out
+./vcftools-0.1.16/examples/annotate.out
+./vcftools-0.1.16/examples/._annotate.txt
+./vcftools-0.1.16/examples/annotate.txt
+./vcftools-0.1.16/examples/._annotate2.out
+./vcftools-0.1.16/examples/annotate2.out
+./vcftools-0.1.16/examples/._annotate3.out
+./vcftools-0.1.16/examples/annotate3.out
+./vcftools-0.1.16/examples/._cmp-test-a-3.3.vcf
+./vcftools-0.1.16/examples/cmp-test-a-3.3.vcf
+./vcftools-0.1.16/examples/._cmp-test-a.vcf
+./vcftools-0.1.16/examples/cmp-test-a.vcf
+./vcftools-0.1.16/examples/._cmp-test-b-3.3.vcf
+./vcftools-0.1.16/examples/cmp-test-b-3.3.vcf
+./vcftools-0.1.16/examples/._cmp-test-b.vcf
+./vcftools-0.1.16/examples/cmp-test-b.vcf
+./vcftools-0.1.16/examples/._cmp-test.out
+./vcftools-0.1.16/examples/cmp-test.out
+./vcftools-0.1.16/examples/._concat-a.vcf
+./vcftools-0.1.16/examples/concat-a.vcf
+./vcftools-0.1.16/examples/._concat-b.vcf
+./vcftools-0.1.16/examples/concat-b.vcf
+./vcftools-0.1.16/examples/._concat-c.vcf
+./vcftools-0.1.16/examples/concat-c.vcf
+./vcftools-0.1.16/examples/._concat.out
+./vcftools-0.1.16/examples/concat.out
+./vcftools-0.1.16/examples/._consensus.fa
+./vcftools-0.1.16/examples/consensus.fa
+./vcftools-0.1.16/examples/._consensus.out
+./vcftools-0.1.16/examples/consensus.out
+./vcftools-0.1.16/examples/._consensus.out2
+./vcftools-0.1.16/examples/consensus.out2
+./vcftools-0.1.16/examples/._consensus.vcf
+./vcftools-0.1.16/examples/consensus.vcf
+./vcftools-0.1.16/examples/._contrast.out
+./vcftools-0.1.16/examples/contrast.out
+./vcftools-0.1.16/examples/._contrast.vcf
+./vcftools-0.1.16/examples/contrast.vcf
+./vcftools-0.1.16/examples/._fill-an-ac.out
+./vcftools-0.1.16/examples/fill-an-ac.out
+./vcftools-0.1.16/examples/._filters.txt
+./vcftools-0.1.16/examples/filters.txt
+./vcftools-0.1.16/examples/._fix-ploidy.out
+./vcftools-0.1.16/examples/fix-ploidy.out
+./vcftools-0.1.16/examples/._fix-ploidy.samples
+./vcftools-0.1.16/examples/fix-ploidy.samples
+./vcftools-0.1.16/examples/._fix-ploidy.txt
+./vcftools-0.1.16/examples/fix-ploidy.txt
+./vcftools-0.1.16/examples/._fix-ploidy.vcf
+./vcftools-0.1.16/examples/fix-ploidy.vcf
+./vcftools-0.1.16/examples/._floats.vcf
+./vcftools-0.1.16/examples/floats.vcf
+./vcftools-0.1.16/examples/._indel-stats.out
+./vcftools-0.1.16/examples/indel-stats.out
+./vcftools-0.1.16/examples/._indel-stats.tab
+./vcftools-0.1.16/examples/indel-stats.tab
+./vcftools-0.1.16/examples/._indel-stats.vcf
+./vcftools-0.1.16/examples/indel-stats.vcf
+./vcftools-0.1.16/examples/._invalid-4.0.vcf
+./vcftools-0.1.16/examples/invalid-4.0.vcf
+./vcftools-0.1.16/examples/._isec-n2-test.vcf.out
+./vcftools-0.1.16/examples/isec-n2-test.vcf.out
+./vcftools-0.1.16/examples/._merge-test-a.vcf
+./vcftools-0.1.16/examples/merge-test-a.vcf
+./vcftools-0.1.16/examples/._merge-test-b.vcf
+./vcftools-0.1.16/examples/merge-test-b.vcf
+./vcftools-0.1.16/examples/._merge-test-c.vcf
+./vcftools-0.1.16/examples/merge-test-c.vcf
+./vcftools-0.1.16/examples/._merge-test.vcf.out
+./vcftools-0.1.16/examples/merge-test.vcf.out
+./vcftools-0.1.16/examples/._parse-test.vcf
+./vcftools-0.1.16/examples/parse-test.vcf
+./vcftools-0.1.16/examples/._perl-api-1.pl
+./vcftools-0.1.16/examples/perl-api-1.pl
+./vcftools-0.1.16/examples/._query-test.out
+./vcftools-0.1.16/examples/query-test.out
+./vcftools-0.1.16/examples/._shuffle-test.vcf
+./vcftools-0.1.16/examples/shuffle-test.vcf
+./vcftools-0.1.16/examples/._subset.indels.out
+./vcftools-0.1.16/examples/subset.indels.out
+./vcftools-0.1.16/examples/._subset.SNPs.out
+./vcftools-0.1.16/examples/subset.SNPs.out
+./vcftools-0.1.16/examples/._subset.vcf
+./vcftools-0.1.16/examples/subset.vcf
+./vcftools-0.1.16/examples/._valid-3.3.vcf
+./vcftools-0.1.16/examples/valid-3.3.vcf
+./vcftools-0.1.16/examples/._valid-4.0.vcf
+./vcftools-0.1.16/examples/valid-4.0.vcf
+./vcftools-0.1.16/examples/._valid-4.0.vcf.stats
+./vcftools-0.1.16/examples/valid-4.0.vcf.stats
+./vcftools-0.1.16/examples/._valid-4.1.vcf
+./vcftools-0.1.16/examples/valid-4.1.vcf
+./vcftools-0.1.16/install-sh
+./vcftools-0.1.16/missing
+./vcftools-0.1.16/._src
+./vcftools-0.1.16/src/
+./vcftools-0.1.16/src/._cpp
+./vcftools-0.1.16/src/cpp/
+./vcftools-0.1.16/src/._Makefile.am
+./vcftools-0.1.16/src/Makefile.am
+./vcftools-0.1.16/src/Makefile.in
+./vcftools-0.1.16/src/._perl
+./vcftools-0.1.16/src/perl/
+./vcftools-0.1.16/src/perl/._ChangeLog
+./vcftools-0.1.16/src/perl/ChangeLog
+./vcftools-0.1.16/src/perl/._FaSlice.pm
+./vcftools-0.1.16/src/perl/FaSlice.pm
+./vcftools-0.1.16/src/perl/._fill-aa
+./vcftools-0.1.16/src/perl/fill-aa
+./vcftools-0.1.16/src/perl/._fill-an-ac
+./vcftools-0.1.16/src/perl/fill-an-ac
+./vcftools-0.1.16/src/perl/._fill-fs
+./vcftools-0.1.16/src/perl/fill-fs
+./vcftools-0.1.16/src/perl/._fill-ref-md5
+./vcftools-0.1.16/src/perl/fill-ref-md5
+./vcftools-0.1.16/src/perl/._Makefile.am
+./vcftools-0.1.16/src/perl/Makefile.am
+./vcftools-0.1.16/src/perl/Makefile.in
+./vcftools-0.1.16/src/perl/._tab-to-vcf
+./vcftools-0.1.16/src/perl/tab-to-vcf
+./vcftools-0.1.16/src/perl/._test.t
+./vcftools-0.1.16/src/perl/test.t
+./vcftools-0.1.16/src/perl/._vcf-annotate
+./vcftools-0.1.16/src/perl/vcf-annotate
+./vcftools-0.1.16/src/perl/._vcf-compare
+./vcftools-0.1.16/src/perl/vcf-compare
+./vcftools-0.1.16/src/perl/._vcf-concat
+./vcftools-0.1.16/src/perl/vcf-concat
+./vcftools-0.1.16/src/perl/._vcf-consensus
+./vcftools-0.1.16/src/perl/vcf-consensus
+./vcftools-0.1.16/src/perl/._vcf-contrast
+./vcftools-0.1.16/src/perl/vcf-contrast
+./vcftools-0.1.16/src/perl/._vcf-convert
+./vcftools-0.1.16/src/perl/vcf-convert
+./vcftools-0.1.16/src/perl/._vcf-fix-newlines
+./vcftools-0.1.16/src/perl/vcf-fix-newlines
+./vcftools-0.1.16/src/perl/._vcf-fix-ploidy
+./vcftools-0.1.16/src/perl/vcf-fix-ploidy
+./vcftools-0.1.16/src/perl/._vcf-haplotypes
+./vcftools-0.1.16/src/perl/vcf-haplotypes
+./vcftools-0.1.16/src/perl/._vcf-indel-stats
+./vcftools-0.1.16/src/perl/vcf-indel-stats
+./vcftools-0.1.16/src/perl/._vcf-isec
+./vcftools-0.1.16/src/perl/vcf-isec
+./vcftools-0.1.16/src/perl/._vcf-merge
+./vcftools-0.1.16/src/perl/vcf-merge
+./vcftools-0.1.16/src/perl/._vcf-phased-join
+./vcftools-0.1.16/src/perl/vcf-phased-join
+./vcftools-0.1.16/src/perl/._vcf-query
+./vcftools-0.1.16/src/perl/vcf-query
+./vcftools-0.1.16/src/perl/._vcf-shuffle-cols
+./vcftools-0.1.16/src/perl/vcf-shuffle-cols
+./vcftools-0.1.16/src/perl/._vcf-sort
+./vcftools-0.1.16/src/perl/vcf-sort
+./vcftools-0.1.16/src/perl/._vcf-stats
+./vcftools-0.1.16/src/perl/vcf-stats
+./vcftools-0.1.16/src/perl/._vcf-subset
+./vcftools-0.1.16/src/perl/vcf-subset
+./vcftools-0.1.16/src/perl/._vcf-to-tab
+./vcftools-0.1.16/src/perl/vcf-to-tab
+./vcftools-0.1.16/src/perl/._vcf-tstv
+./vcftools-0.1.16/src/perl/vcf-tstv
+./vcftools-0.1.16/src/perl/._vcf-validator
+./vcftools-0.1.16/src/perl/vcf-validator
+./vcftools-0.1.16/src/perl/._Vcf.pm
+./vcftools-0.1.16/src/perl/Vcf.pm
+./vcftools-0.1.16/src/perl/._VcfStats.pm
+./vcftools-0.1.16/src/perl/VcfStats.pm
+./vcftools-0.1.16/src/cpp/._bcf_entry.cpp
+./vcftools-0.1.16/src/cpp/bcf_entry.cpp
+./vcftools-0.1.16/src/cpp/._bcf_entry.h
+./vcftools-0.1.16/src/cpp/bcf_entry.h
+./vcftools-0.1.16/src/cpp/._bcf_entry_setters.cpp
+./vcftools-0.1.16/src/cpp/bcf_entry_setters.cpp
+./vcftools-0.1.16/src/cpp/._bcf_file.cpp
+./vcftools-0.1.16/src/cpp/bcf_file.cpp
+./vcftools-0.1.16/src/cpp/._bcf_file.h
+./vcftools-0.1.16/src/cpp/bcf_file.h
+./vcftools-0.1.16/src/cpp/._bgzf.c
+./vcftools-0.1.16/src/cpp/bgzf.c
+./vcftools-0.1.16/src/cpp/._bgzf.h
+./vcftools-0.1.16/src/cpp/bgzf.h
+./vcftools-0.1.16/src/cpp/._dgeev.cpp
+./vcftools-0.1.16/src/cpp/dgeev.cpp
+./vcftools-0.1.16/src/cpp/._dgeev.h
+./vcftools-0.1.16/src/cpp/dgeev.h
+./vcftools-0.1.16/src/cpp/._entry.cpp
+./vcftools-0.1.16/src/cpp/entry.cpp
+./vcftools-0.1.16/src/cpp/._entry.h
+./vcftools-0.1.16/src/cpp/entry.h
+./vcftools-0.1.16/src/cpp/._entry_filters.cpp
+./vcftools-0.1.16/src/cpp/entry_filters.cpp
+./vcftools-0.1.16/src/cpp/._entry_getters.cpp
+./vcftools-0.1.16/src/cpp/entry_getters.cpp
+./vcftools-0.1.16/src/cpp/._entry_setters.cpp
+./vcftools-0.1.16/src/cpp/entry_setters.cpp
+./vcftools-0.1.16/src/cpp/._gamma.cpp
+./vcftools-0.1.16/src/cpp/gamma.cpp
+./vcftools-0.1.16/src/cpp/._gamma.h
+./vcftools-0.1.16/src/cpp/gamma.h
+./vcftools-0.1.16/src/cpp/._header.cpp
+./vcftools-0.1.16/src/cpp/header.cpp
+./vcftools-0.1.16/src/cpp/._header.h
+./vcftools-0.1.16/src/cpp/header.h
+./vcftools-0.1.16/src/cpp/._khash.h
+./vcftools-0.1.16/src/cpp/khash.h
+./vcftools-0.1.16/src/cpp/._knetfile.c
+./vcftools-0.1.16/src/cpp/knetfile.c
+./vcftools-0.1.16/src/cpp/._knetfile.h
+./vcftools-0.1.16/src/cpp/knetfile.h
+./vcftools-0.1.16/src/cpp/._Makefile.am
+./vcftools-0.1.16/src/cpp/Makefile.am
+./vcftools-0.1.16/src/cpp/Makefile.in
+./vcftools-0.1.16/src/cpp/._output_log.cpp
+./vcftools-0.1.16/src/cpp/output_log.cpp
+./vcftools-0.1.16/src/cpp/._output_log.h
+./vcftools-0.1.16/src/cpp/output_log.h
+./vcftools-0.1.16/src/cpp/._parameters.cpp
+./vcftools-0.1.16/src/cpp/parameters.cpp
+./vcftools-0.1.16/src/cpp/._parameters.h
+./vcftools-0.1.16/src/cpp/parameters.h
+./vcftools-0.1.16/src/cpp/._variant_file.cpp
+./vcftools-0.1.16/src/cpp/variant_file.cpp
+./vcftools-0.1.16/src/cpp/._variant_file.h
+./vcftools-0.1.16/src/cpp/variant_file.h
+./vcftools-0.1.16/src/cpp/._variant_file_diff.cpp
+./vcftools-0.1.16/src/cpp/variant_file_diff.cpp
+./vcftools-0.1.16/src/cpp/._variant_file_filters.cpp
+./vcftools-0.1.16/src/cpp/variant_file_filters.cpp
+./vcftools-0.1.16/src/cpp/._variant_file_format_convert.cpp
+./vcftools-0.1.16/src/cpp/variant_file_format_convert.cpp
+./vcftools-0.1.16/src/cpp/._variant_file_output.cpp
+./vcftools-0.1.16/src/cpp/variant_file_output.cpp
+./vcftools-0.1.16/src/cpp/._vcf_entry.cpp
+./vcftools-0.1.16/src/cpp/vcf_entry.cpp
+./vcftools-0.1.16/src/cpp/._vcf_entry.h
+./vcftools-0.1.16/src/cpp/vcf_entry.h
+./vcftools-0.1.16/src/cpp/._vcf_entry_setters.cpp
+./vcftools-0.1.16/src/cpp/vcf_entry_setters.cpp
+./vcftools-0.1.16/src/cpp/._vcf_file.cpp
+./vcftools-0.1.16/src/cpp/vcf_file.cpp
+./vcftools-0.1.16/src/cpp/._vcf_file.h
+./vcftools-0.1.16/src/cpp/vcf_file.h
+./vcftools-0.1.16/src/cpp/._vcftools.1
+./vcftools-0.1.16/src/cpp/vcftools.1
+./vcftools-0.1.16/src/cpp/._vcftools.cpp
+./vcftools-0.1.16/src/cpp/vcftools.cpp
+./vcftools-0.1.16/src/cpp/._vcftools.h
+./vcftools-0.1.16/src/cpp/vcftools.h
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for perl... /usr/bin/perl
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for ZLIB... yes
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking for stdint.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for unistd.h... (cached) yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for inline... inline
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int64_t... yes
+checking for int8_t... yes
+checking for off_t... yes
+checking for size_t... yes
+checking for ssize_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint8_t... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for error_at_line... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking for gethostbyaddr... yes
+checking for gethostbyname... yes
+checking for memset... yes
+checking for pow... no
+checking for select... yes
+checking for socket... yes
+checking for sqrt... no
+checking for strchr... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strstr... yes
+checking for strtol... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/cpp/Makefile
+config.status: creating src/perl/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+make  all-recursive
+make[1]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16'
+Making all in src
+make[2]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src'
+Making all in cpp
+make[3]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src/cpp'
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-bcf_entry.o -MD -MP -MF .deps/vcftools-bcf_entry.Tpo -c -o vcftools-bcf_entry.o `test -f 'bcf_entry.cpp' || echo './'`bcf_entry.cpp
+mv -f .deps/vcftools-bcf_entry.Tpo .deps/vcftools-bcf_entry.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-bcf_entry_setters.o -MD -MP -MF .deps/vcftools-bcf_entry_setters.Tpo -c -o vcftools-bcf_entry_setters.o `test -f 'bcf_entry_setters.cpp' || echo './'`bcf_entry_setters.cpp
+mv -f .deps/vcftools-bcf_entry_setters.Tpo .deps/vcftools-bcf_entry_setters.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-bcf_file.o -MD -MP -MF .deps/vcftools-bcf_file.Tpo -c -o vcftools-bcf_file.o `test -f 'bcf_file.cpp' || echo './'`bcf_file.cpp
+mv -f .deps/vcftools-bcf_file.Tpo .deps/vcftools-bcf_file.Po
+gcc -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-bgzf.o -MD -MP -MF .deps/vcftools-bgzf.Tpo -c -o vcftools-bgzf.o `test -f 'bgzf.c' || echo './'`bgzf.c
+mv -f .deps/vcftools-bgzf.Tpo .deps/vcftools-bgzf.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-dgeev.o -MD -MP -MF .deps/vcftools-dgeev.Tpo -c -o vcftools-dgeev.o `test -f 'dgeev.cpp' || echo './'`dgeev.cpp
+mv -f .deps/vcftools-dgeev.Tpo .deps/vcftools-dgeev.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-entry.o -MD -MP -MF .deps/vcftools-entry.Tpo -c -o vcftools-entry.o `test -f 'entry.cpp' || echo './'`entry.cpp
+mv -f .deps/vcftools-entry.Tpo .deps/vcftools-entry.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-entry_filters.o -MD -MP -MF .deps/vcftools-entry_filters.Tpo -c -o vcftools-entry_filters.o `test -f 'entry_filters.cpp' || echo './'`entry_filters.cpp
+mv -f .deps/vcftools-entry_filters.Tpo .deps/vcftools-entry_filters.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-entry_getters.o -MD -MP -MF .deps/vcftools-entry_getters.Tpo -c -o vcftools-entry_getters.o `test -f 'entry_getters.cpp' || echo './'`entry_getters.cpp
+mv -f .deps/vcftools-entry_getters.Tpo .deps/vcftools-entry_getters.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-entry_setters.o -MD -MP -MF .deps/vcftools-entry_setters.Tpo -c -o vcftools-entry_setters.o `test -f 'entry_setters.cpp' || echo './'`entry_setters.cpp
+mv -f .deps/vcftools-entry_setters.Tpo .deps/vcftools-entry_setters.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-gamma.o -MD -MP -MF .deps/vcftools-gamma.Tpo -c -o vcftools-gamma.o `test -f 'gamma.cpp' || echo './'`gamma.cpp
+mv -f .deps/vcftools-gamma.Tpo .deps/vcftools-gamma.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-header.o -MD -MP -MF .deps/vcftools-header.Tpo -c -o vcftools-header.o `test -f 'header.cpp' || echo './'`header.cpp
+mv -f .deps/vcftools-header.Tpo .deps/vcftools-header.Po
+gcc -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-knetfile.o -MD -MP -MF .deps/vcftools-knetfile.Tpo -c -o vcftools-knetfile.o `test -f 'knetfile.c' || echo './'`knetfile.c
+mv -f .deps/vcftools-knetfile.Tpo .deps/vcftools-knetfile.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-output_log.o -MD -MP -MF .deps/vcftools-output_log.Tpo -c -o vcftools-output_log.o `test -f 'output_log.cpp' || echo './'`output_log.cpp
+mv -f .deps/vcftools-output_log.Tpo .deps/vcftools-output_log.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-parameters.o -MD -MP -MF .deps/vcftools-parameters.Tpo -c -o vcftools-parameters.o `test -f 'parameters.cpp' || echo './'`parameters.cpp
+mv -f .deps/vcftools-parameters.Tpo .deps/vcftools-parameters.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-variant_file.o -MD -MP -MF .deps/vcftools-variant_file.Tpo -c -o vcftools-variant_file.o `test -f 'variant_file.cpp' || echo './'`variant_file.cpp
+mv -f .deps/vcftools-variant_file.Tpo .deps/vcftools-variant_file.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-variant_file_diff.o -MD -MP -MF .deps/vcftools-variant_file_diff.Tpo -c -o vcftools-variant_file_diff.o `test -f 'variant_file_diff.cpp' || echo './'`variant_file_diff.cpp
+mv -f .deps/vcftools-variant_file_diff.Tpo .deps/vcftools-variant_file_diff.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-variant_file_filters.o -MD -MP -MF .deps/vcftools-variant_file_filters.Tpo -c -o vcftools-variant_file_filters.o `test -f 'variant_file_filters.cpp' || echo './'`variant_file_filters.cpp
+mv -f .deps/vcftools-variant_file_filters.Tpo .deps/vcftools-variant_file_filters.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-variant_file_format_convert.o -MD -MP -MF .deps/vcftools-variant_file_format_convert.Tpo -c -o vcftools-variant_file_format_convert.o `test -f 'variant_file_format_convert.cpp' || echo './'`variant_file_format_convert.cpp
+mv -f .deps/vcftools-variant_file_format_convert.Tpo .deps/vcftools-variant_file_format_convert.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-variant_file_output.o -MD -MP -MF .deps/vcftools-variant_file_output.Tpo -c -o vcftools-variant_file_output.o `test -f 'variant_file_output.cpp' || echo './'`variant_file_output.cpp
+mv -f .deps/vcftools-variant_file_output.Tpo .deps/vcftools-variant_file_output.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-vcf_entry.o -MD -MP -MF .deps/vcftools-vcf_entry.Tpo -c -o vcftools-vcf_entry.o `test -f 'vcf_entry.cpp' || echo './'`vcf_entry.cpp
+mv -f .deps/vcftools-vcf_entry.Tpo .deps/vcftools-vcf_entry.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-vcf_entry_setters.o -MD -MP -MF .deps/vcftools-vcf_entry_setters.Tpo -c -o vcftools-vcf_entry_setters.o `test -f 'vcf_entry_setters.cpp' || echo './'`vcf_entry_setters.cpp
+mv -f .deps/vcftools-vcf_entry_setters.Tpo .deps/vcftools-vcf_entry_setters.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-vcf_file.o -MD -MP -MF .deps/vcftools-vcf_file.Tpo -c -o vcftools-vcf_file.o `test -f 'vcf_file.cpp' || echo './'`vcf_file.cpp
+mv -f .deps/vcftools-vcf_file.Tpo .deps/vcftools-vcf_file.Po
+g++ -DHAVE_CONFIG_H -I. -I../..     -g -O2 -MT vcftools-vcftools.o -MD -MP -MF .deps/vcftools-vcftools.Tpo -c -o vcftools-vcftools.o `test -f 'vcftools.cpp' || echo './'`vcftools.cpp
+mv -f .deps/vcftools-vcftools.Tpo .deps/vcftools-vcftools.Po
+g++  -g -O2   -o vcftools vcftools-bcf_entry.o vcftools-bcf_entry_setters.o vcftools-bcf_file.o vcftools-bgzf.o vcftools-dgeev.o vcftools-entry.o vcftools-entry_filters.o vcftools-entry_getters.o vcftools-entry_setters.o vcftools-gamma.o vcftools-header.o vcftools-knetfile.o vcftools-output_log.o vcftools-parameters.o vcftools-variant_file.o vcftools-variant_file_diff.o vcftools-variant_file_filters.o vcftools-variant_file_format_convert.o vcftools-variant_file_output.o vcftools-vcf_entry.o vcftools-vcf_entry_setters.o vcftools-vcf_file.o vcftools-vcftools.o -lz  
+make[3]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src/cpp'
+Making all in perl
+make[3]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src/perl'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src/perl'
+make[3]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src'
+make[2]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src'
+make[2]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16'
+make[2]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16'
+make[1]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16'
+Making install in src
+make[1]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src'
+Making install in cpp
+make[2]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src/cpp'
+make[3]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src/cpp'
+ /usr/bin/mkdir -p '/shared/EL9/explorer/vcftools/0.1.16/bin'
+  /usr/bin/install -c vcftools '/shared/EL9/explorer/vcftools/0.1.16/bin'
+ /usr/bin/mkdir -p '/shared/EL9/explorer/vcftools/0.1.16/share/man/man1'
+ /usr/bin/install -c -m 644 vcftools.1 '/shared/EL9/explorer/vcftools/0.1.16/share/man/man1'
+make[3]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src/cpp'
+make[2]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src/cpp'
+Making install in perl
+make[2]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src/perl'
+make[3]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src/perl'
+ /usr/bin/mkdir -p '/shared/EL9/explorer/vcftools/0.1.16/bin'
+ /usr/bin/install -c fill-aa fill-an-ac fill-fs fill-ref-md5 vcf-annotate vcf-compare vcf-concat vcf-consensus vcf-contrast vcf-convert vcf-fix-newlines vcf-fix-ploidy vcf-indel-stats vcf-isec vcf-merge vcf-phased-join vcf-query vcf-shuffle-cols vcf-sort vcf-stats vcf-subset vcf-to-tab vcf-tstv vcf-validator '/shared/EL9/explorer/vcftools/0.1.16/bin'
+ /usr/bin/mkdir -p '/shared/EL9/explorer/vcftools/0.1.16/share/perl5/5.32'
+ /usr/bin/install -c -m 644 FaSlice.pm Vcf.pm VcfStats.pm '/shared/EL9/explorer/vcftools/0.1.16/share/perl5/5.32'
+make[3]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src/perl'
+make[2]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src/perl'
+make[2]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src'
+make[3]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src'
+make[2]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src'
+make[1]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16/src'
+make[1]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16'
+make[2]: Entering directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16'
+make[1]: Leaving directory '/shared/EL9/explorer/vcftools/0.1.16/src/vcftools-0.1.16'
